@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--mainColor: #24100e;
+	--mainColorLight: #5767aa;
+	--textColor: #eee;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+
+	background: transparent;
+	color: #000;
+
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  position: fixed;
+  width: 100%;
+	z-index: 9;
+	top: 0;
+
+	transition: .3s ease-in-out;
+}
+
+.activeBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background: var(--mainColor);
+	color: #000;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+	top: 0;
+
+	height: 80px;
+
+	z-index: 9999;
+}
+
+.content-header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+}
+
+.link-loja {
+	background: #fafafa;
+	height: 40px;
+	padding: .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	border-radius: 4px;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 0;
+	top: 14px;
+	// width: 100%;
+}
+
+.content-logo {
+	display: flex;
+	align-items: center;
+}
+
+.header-logo {
+	max-width: 200px;
+  height: 50px;
+	object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.header-logo {
+		max-width: 120px;
+		height: 30px;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		z-index: 9;
+	}
+
+	header div, nav {
+		position: relative;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
