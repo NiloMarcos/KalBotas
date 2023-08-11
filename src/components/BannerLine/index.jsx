@@ -6,7 +6,7 @@ import './styles.scss';
 
 export function BannerLine() {
   return (
-    <div className="container-banner-tarja">
+    <div className="container-banner-tarja" id="tarja">
       <a href="#">
         <img src={Banner} alt="Banner tarja" />
       </a>

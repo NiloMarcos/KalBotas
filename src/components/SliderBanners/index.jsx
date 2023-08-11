@@ -12,7 +12,7 @@ import './styles.scss';
 
 export function SliderBanners() {
   return (
-    <div className='div-banner-principal'>
+    <div className='div-banner-principal' id='home'>
       <Carousel
         autoPlay={true}
         autoFocus={true}

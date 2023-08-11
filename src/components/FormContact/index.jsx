@@ -13,7 +13,7 @@ export function FormContact() {
   }
 
   return (
-    <div className='container-form'>
+    <div className='container-form' id='contact'>
       <section>
         <img src={Logo} alt="Logo Form" />
 
@@ -42,14 +42,16 @@ export function FormContact() {
           type="text" 
           name="name" 
           id="name" 
-          placeholder='Seu nome' 
+          placeholder='Seu nome'
+          required
         />
 
         <input 
-          type="text" 
+          type="email" 
           name="email" 
           id="email" 
           placeholder='E-mail' 
+          required
         />
         
         <input 
@@ -57,9 +59,15 @@ export function FormContact() {
           name="contact" 
           id="contact" 
           placeholder='Contato' 
+          required
         />
 
-        <textarea name="message" id="message" placeholder='Escreva sua mensagem!'></textarea>
+        <textarea 
+          name="message" 
+          id="message" 
+          placeholder='Escreva sua mensagem!' 
+          required
+        />
 
         <button type='submit' onClick={() => handleFormSubmit()}>Enviar Formulário</button>
       </form>

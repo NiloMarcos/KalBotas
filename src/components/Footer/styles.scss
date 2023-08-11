@@ -24,6 +24,18 @@
     }
   }
 
+  &__conainer_text {
+    max-width: 400px;
+
+
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #000;
+      text-align: justify;
+    }
+  }
+
   &__contato {
     color: #121212;
 
@@ -88,4 +100,26 @@ footer {
   padding: 1rem 2rem;
 
   color: #FFF;
+}
+
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .footerLayout {
+
+    &__conainer_text {
+      max-width: none;
+      margin: 1rem 0 0 0;
+    }
+
+    &__contato {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 1rem 0 0 0;
+    }
+  }
 }

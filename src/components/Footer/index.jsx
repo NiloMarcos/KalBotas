@@ -12,8 +12,10 @@ export function Footer() {
       <footer>
           <section className='footerLayout__logo'>
             <img src={Logo} alt="Logo footer" />
+          </section>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam reprehenderit consequuntur provident deleniti eligendi ratione.</p>
+          <section className='footerLayout__conainer_text'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam reprehenderit consequuntur provident deleniti eligendi ratione.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam reprehenderit consequuntur provident deleniti eligendi ratione.</p>
           </section>
 
           <section className='footerLayout__contato'>

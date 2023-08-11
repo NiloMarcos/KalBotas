@@ -30,11 +30,12 @@ export function Header({ active }) {
 
 				<section>
 					<nav ref={navRef}>
-						<a>Início</a>
-						<a>Sobre nós</a>
-						{/* <a href={catalogo} download>Catálogo</a> */}
-						<a>Loja</a>
-						<a>Contato</a>
+					  {/* <Link to={'/'} relative='path'>Início</Link>
+					  <Link to={'/'} relative='path'>Sobre nós</Link> */}
+						<a href='#home'>Início</a>
+						<a href='#about'>Sobre nós</a>
+						<a href='#tarja'>Loja</a>
+						<a href='#contact'>Contato</a>
 						<button
 							className="nav-btn nav-close-btn"
 							onClick={showNavbar}>

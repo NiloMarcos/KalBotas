@@ -6,7 +6,7 @@ import './styles.scss';
 
 export function AboutUs() {
   return(
-    <main>
+    <div id='about'>
         <div className="container-about">
           <img src={Logo} alt="Logo sobre nós" />
 
@@ -18,6 +18,6 @@ export function AboutUs() {
           Fazer botinas é uma arte, e os anos trouxeram conforto, segurança e tradição. Proporcionamos um trabalho realizado pela paixão que temos, impulsionando a buscar garantias de excelência e inovação. Desde o design até a escolha da matéria-prima é pensado para garantir a sensação de um calçado feito sob medida para os nossos consumidores.
           </p>
         </div>
-    </main>
+    </div>
   );
 }
