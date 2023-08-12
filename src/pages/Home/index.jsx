@@ -7,6 +7,7 @@ import { SliderBanners } from '../../components/SliderBanners';
 import { AboutUs } from '../../components/AboutUs';
 import { BannerLine } from '../../components/BannerLine';
 import { FormContact } from '../../components/FormContact';
+import { SliderCatalogo } from '../../components/SliderCatalago';
 
 export function Home() {
 	const [ activeColor, setActiveColor ] = useState(false);
@@ -30,6 +31,7 @@ export function Home() {
       <SliderBanners />
       <AboutUs />
       <BannerLine />
+      <SliderCatalogo />
       <FormContact />
       <Footer />
     </div>

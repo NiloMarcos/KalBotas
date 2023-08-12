@@ -3,8 +3,6 @@
 
   &__logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 
 
@@ -85,6 +83,29 @@
       text-align: center;
     }
   }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 0;
+    margin: 2rem 0 0 0;
+    border-top: 1px solid #c4c4c4;
+
+    p {
+      color: #000;
+    }
+  }
 }
 
 
@@ -92,6 +113,8 @@ footer {
   display: flex;
 
   justify-content: space-around;
+
+  flex-direction: column;
 
   max-width: 1440px;
   width: 100%;
@@ -121,5 +144,10 @@ footer {
       flex-direction: column;
       margin: 1rem 0 0 0;
     }
+
+    &__info {
+      flex-direction: column;
+      justify-content: center;
+    } 
   }
 }
