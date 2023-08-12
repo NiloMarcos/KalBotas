@@ -38,7 +38,7 @@ export function Footer() {
 
           <div className='footerLayout__direitos'>
             <section>
-              <p>© KalBoatas - Todos os direitos reservados</p>
+              <p>© KalBotas - Todos os direitos reservados</p>
             </section>
           </div>
       </footer>
