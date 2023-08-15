@@ -86,7 +86,8 @@
 
   &__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
   }
 
   &__logo {
@@ -120,7 +121,7 @@ footer {
   width: 100%;
 
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
 
   color: #FFF;
 }
@@ -128,6 +129,7 @@ footer {
 @media (max-width: 900px) {
   footer {
     flex-direction: column;
+    padding: 2.5rem 2rem;
   }
 
   .footerLayout {
@@ -148,6 +150,7 @@ footer {
     &__info {
       flex-direction: column;
       justify-content: center;
+      gap: 0;
     } 
   }
 }

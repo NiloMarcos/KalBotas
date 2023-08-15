@@ -28,11 +28,11 @@ export function FormContact() {
         <span>
           KALBOTAS <br/>
 
-          AV. BRASÍLIA , 870 - PLANALTO <br/>
+          AV. LUIZ SULINO , 336 - PLANALTO <br/>
 
-          TESTE-MG <br/>
+          PERDIGÃO - MG <br/>
 
-          CEP.: 00000-000 | (00) 0000-0000 <br/>
+          CEP.: 35545-000 | (37) 3287-1070 <br/>
         </span>
 
       </section>

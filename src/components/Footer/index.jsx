@@ -16,7 +16,7 @@ export function Footer() {
             </section>
 
             <section className='footerLayout__conainer_text'>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam reprehenderit consequuntur provident deleniti eligendi ratione.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam reprehenderit consequuntur provident deleniti eligendi ratione.</p>
+              <p>Há mais de 22 anos, nasce a marca Kalbotas cuja tradição e qualidade transformaram em sinônimo de força e beleza em suas botinas. Uma marca autêntica em seu mercado, elaborada para quem prioriza a qualidade sem deixar de lado a simplicidade da origem caipira.</p>
             </section>
 
             <section className='footerLayout__contato'>
@@ -31,7 +31,7 @@ export function Footer() {
               <section className='footerLayout__email'>
                 <AiTwotoneMail />
 
-                <p>teste@gmail.com</p>
+                <p>hmtcalcados@gmail.com</p>
               </section>
             </section>
           </div>
