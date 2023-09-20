@@ -6,3 +6,23 @@
     width: 100%;
   }
 }
+ 
+@media screen and (min-width: 50px) and (max-width: 768px) {
+  .banner-tarja-mobile {
+    display: flex;
+  }
+
+  .banner-tarja-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner-tarja-mobile {
+    display: none;
+  }
+
+  .banner-tarja-desktop {
+    display: flex;
+  }
+}
