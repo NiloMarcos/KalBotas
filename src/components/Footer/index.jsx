@@ -25,7 +25,7 @@ export function Footer() {
               <section className='footerLayout__phone'>
                 <AiTwotonePhone />
 
-                <p>(00) 0 0000-0000</p>
+                <p>(37) 3287-1070</p>
               </section>
 
               <section className='footerLayout__email'>

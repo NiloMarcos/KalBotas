@@ -7,7 +7,7 @@ import './styles.scss';
 export function BannerLine() {
   return (
     <div className="container-banner-tarja" id="tarja">
-      <a href="#">
+      <a href="https://lojadabotina.com.br/">
         <img src={Banner} alt="Banner tarja" />
       </a>
     </div>

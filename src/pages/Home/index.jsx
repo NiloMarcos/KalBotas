@@ -8,6 +8,7 @@ import { AboutUs } from '../../components/AboutUs';
 import { BannerLine } from '../../components/BannerLine';
 import { FormContact } from '../../components/FormContact';
 import { SliderCatalogo } from '../../components/SliderCatalago';
+import { SliderBannerMobile } from '../../components/SliderBannerMobile';
 
 export function Home() {
 	const [ activeColor, setActiveColor ] = useState(false);
@@ -29,6 +30,7 @@ export function Home() {
     <div>
       <Header active={activeColor} /> 
       <SliderBanners />
+      <SliderBannerMobile />
       <AboutUs />
       <BannerLine />
       <SliderCatalogo />
