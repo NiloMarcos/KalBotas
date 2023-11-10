@@ -32,7 +32,6 @@ export function Home() {
       <SliderBanners />
       <SliderBannerMobile />
       <AboutUs />
-      <BannerLine />
       <SliderCatalogo />
       <FormContact />
       <Footer />

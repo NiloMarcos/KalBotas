@@ -34,7 +34,6 @@ export function Header({ active }) {
 					  <Link to={'/'} relative='path'>Sobre nós</Link> */}
 						<a href='#home'>Início</a>
 						<a href='#about'>Sobre nós</a>
-						<a href='#tarja'>Loja</a>
 						<a href='#contact'>Contato</a>
 						<button
 							className="nav-btn nav-close-btn"
